@@ -7,17 +7,17 @@
 int main(void)
 {
 	char i = '0';
-	char i = 'a';
+	char y = 'a';
 
 	while (i <= '9')
 	{
 		putchar(i);
 		i++;
 	}
-	while (i <= 'f')
+	while (y <= 'f')
 	{
-		putchar(i);
-		i++;
+		putchar(y);
+		y++;
 	}
 	putchar('\n');
 	return (0);
